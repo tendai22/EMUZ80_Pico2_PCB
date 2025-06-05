@@ -6,7 +6,7 @@
 	(descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x20 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.38 0)
+		(at 0 -2.3368 0)
 		(layer "F.SilkS")
 		(uuid "c526248e-963c-4536-acaa-62ab1a733c42")
 		(effects
@@ -53,7 +53,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.38 -1.38)
+		(start -1.28 -1.38)
 		(end 0 -1.38)
 		(stroke
 			(width 0.12)
@@ -63,8 +63,8 @@
 		(uuid "b9453e3e-774c-4d43-abda-cc5afcefa9af")
 	)
 	(fp_line
-		(start -1.38 0)
-		(end -1.38 -1.38)
+		(start -1.28 0)
+		(end -1.28 -1.38)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "35235a83-1dee-46a8-8532-951175a04176")
 	)
 	(fp_line
-		(start -1.38 1.27)
-		(end -1.38 49.64)
+		(start -1.28 1.27)
+		(end -1.28 49.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "c6ee3685-3bfd-4e7a-98a7-14e0080ba916")
 	)
 	(fp_line
-		(start -1.38 1.27)
-		(end 1.38 1.27)
+		(start -1.28 1.27)
+		(end 1.28 1.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -93,8 +93,8 @@
 		(uuid "901b136a-c3f7-4b3d-bfd7-a48792050f45")
 	)
 	(fp_line
-		(start -1.38 49.64)
-		(end 1.38 49.64)
+		(start -1.28 49.6)
+		(end 1.28 49.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -103,8 +103,8 @@
 		(uuid "48a0da38-dfca-4297-9641-15733df4ecb6")
 	)
 	(fp_line
-		(start 1.38 1.27)
-		(end 1.38 49.64)
+		(start 1.28 1.27)
+		(end 1.28 49.6)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -113,8 +113,8 @@
 		(uuid "4687ca81-2172-4082-92fb-c4fb9736c100")
 	)
 	(fp_line
-		(start -1.77 -1.78)
-		(end -1.77 50.03)
+		(start -1.2808 -1.38)
+		(end -1.2808 49.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -123,18 +123,8 @@
 		(uuid "88e3fe1d-1182-4421-90a9-9ec511b8b012")
 	)
 	(fp_line
-		(start -1.77 50.03)
-		(end 1.77 50.03)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1e60d038-1684-4120-9b35-39d4919a5872")
-	)
-	(fp_line
-		(start 1.77 -1.78)
-		(end -1.77 -1.78)
+		(start 1.28 -1.38)
+		(end -1.28 -1.38)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -143,8 +133,18 @@
 		(uuid "b61f7486-8a36-4630-9931-d8382ce3cb01")
 	)
 	(fp_line
-		(start 1.77 50.03)
-		(end 1.77 -1.78)
+		(start 1.28 49.6)
+		(end -1.2808 49.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39c70f10-c378-4b47-ae17-49e5bec704bf")
+	)
+	(fp_line
+		(start 1.28 49.6)
+		(end 1.28 -1.38)
 		(stroke
 			(width 0.05)
 			(type solid)

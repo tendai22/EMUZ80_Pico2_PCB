@@ -54,16 +54,45 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -3.1 -2.25)
-		(end 3.1 2.25)
+	(fp_line
+		(start -3.1 -1.27)
+		(end -3.1 1.27)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "9dc20e3c-0aea-4d43-aa6c-592dbda94075")
+		(uuid "643198e3-8841-47bc-a2c8-d0281480d2bc")
+	)
+	(fp_line
+		(start -2.286 -2.25)
+		(end 2.286 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4600a0a9-190b-451d-9a2c-32f72e9b4184")
+	)
+	(fp_line
+		(start -2.286 2.286)
+		(end 2.286 2.286)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10b40ca3-482a-44c4-b668-357034f72080")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end 3.175 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1fa3375-2cad-4417-9ec3-0890116f2038")
 	)
 	(fp_circle
 		(center 0 0)
