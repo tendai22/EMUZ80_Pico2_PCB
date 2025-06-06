@@ -17530,7 +17530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-32_W15.24mm_Socket"
+		(property "Footprint" "local-f:DIP-32_W15.24mm_OvalPads"
 			(at 325.12 82.55 0)
 			(effects
 				(font

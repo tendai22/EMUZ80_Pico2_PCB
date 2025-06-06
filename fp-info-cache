@@ -1,4 +1,4 @@
-25639526590749053
+25641275819010339
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102647,6 +102647,13 @@ DC Jack Barrel_Jack
 0
 3
 3
+local-f
+DIP-32_W15.24mm_OvalPads
+32-lead though-hole mounted DIP package, row spacing 15.24mm (600 mils), LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil LongPads
+0
+32
+32
 local-f
 DIP-40_SidePin_Z80
 DIP-40 package with side rows
