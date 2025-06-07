@@ -19356,7 +19356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
+		(property "Footprint" "local-f:USB_Micro-B_Hirose_ZX62-B-5PA"
 			(at 107.95 26.67 0)
 			(effects
 				(font

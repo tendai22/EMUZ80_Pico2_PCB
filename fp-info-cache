@@ -1,4 +1,4 @@
-25641275819328617
+25643025092150950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102822,3 +102822,10 @@ Through hole pin header THT 1x02 2.54mm single row
 0
 1
 1
+local-f
+USB_Micro-B_Hirose_ZX62-B-5PA
+Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
+Micro B USB SMD
+0
+9
+6
