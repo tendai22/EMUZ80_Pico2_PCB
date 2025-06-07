@@ -9269,6 +9269,16 @@
 		)
 		(uuid "098d53da-c99d-4eef-a783-28e33ad0121c")
 	)
+	(wire
+		(pts
+			(xy 360.68 92.71) (xy 337.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c995c2b-dcc2-42b8-a546-08909cb7d373")
+	)
 	(bus
 		(pts
 			(xy 342.9 199.39) (xy 342.9 196.85)
@@ -10121,6 +10131,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 87.63) (xy 388.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d579540-b6d8-4281-8e97-2038c68a0561")
+	)
+	(wire
+		(pts
 			(xy 124.46 166.37) (xy 124.46 220.98)
 		)
 		(stroke
@@ -10301,7 +10321,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 92.71) (xy 337.82 92.71)
+			(xy 386.08 92.71) (xy 365.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10551,7 +10571,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 90.17) (xy 337.82 90.17)
+			(xy 386.08 90.17) (xy 355.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -11581,7 +11601,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 85.09) (xy 337.82 85.09)
+			(xy 386.08 85.09) (xy 355.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11911,7 +11931,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 87.63) (xy 346.71 87.63)
+			(xy 337.82 87.63) (xy 360.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -11988,6 +12008,16 @@
 			(type default)
 		)
 		(uuid "ad984eeb-7a3c-44c9-9c66-13321b8df62b")
+	)
+	(wire
+		(pts
+			(xy 350.52 90.17) (xy 337.82 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9c9269-de17-49f4-a899-4ffcd7f49ee8")
 	)
 	(wire
 		(pts
@@ -12578,6 +12608,16 @@
 			(type default)
 		)
 		(uuid "ce5932d9-238c-4498-9fe3-b7696941746b")
+	)
+	(wire
+		(pts
+			(xy 350.52 85.09) (xy 337.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6942e5-bd3e-488e-af46-8c54e5a8e61f")
 	)
 	(wire
 		(pts
@@ -15663,7 +15703,7 @@
 	)
 	(global_label "RAMCS"
 		(shape tri_state)
-		(at 346.71 87.63 0)
+		(at 388.62 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15673,7 +15713,7 @@
 		)
 		(uuid "4d8c7b99-f933-4fcd-a0fb-9fac987b7b0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.096 87.63 0)
+			(at 399.006 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +15901,7 @@
 	)
 	(global_label "WR"
 		(shape tri_state)
-		(at 344.17 92.71 0)
+		(at 386.08 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15871,7 +15911,7 @@
 		)
 		(uuid "73016146-358f-410f-8f4c-a8d99ae50505")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.9879 92.71 0)
+			(at 392.8979 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16345,7 +16385,7 @@
 	)
 	(global_label "MREQ"
 		(shape tri_state)
-		(at 344.17 85.09 0)
+		(at 386.08 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16355,7 +16395,7 @@
 		)
 		(uuid "e162eb37-962e-4858-b7af-3bda0a8e8ddc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.4674 85.09 0)
+			(at 395.3774 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16389,7 +16429,7 @@
 	)
 	(global_label "RD"
 		(shape tri_state)
-		(at 344.17 90.17 0)
+		(at 386.08 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16399,7 +16439,7 @@
 		)
 		(uuid "e70aa0d6-90d5-40fb-96f1-4f230f581232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.8065 90.17 0)
+			(at 392.7165 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,6 +16810,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 353.06 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09a28928-a5cc-4edd-8c07-7563dd64f3f1")
+		(property "Reference" "JP2"
+			(at 353.06 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CE1_J"
+			(at 353.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 353.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 353.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20e80434-d7c1-46ec-ae91-528dcc6be7a7")
+		)
+		(pin "1"
+			(uuid "ab176568-d7b4-4096-8b9b-88b25aeead2b")
+		)
+		(instances
+			(project "EMUZ80_Pico2"
+				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 295.91 45.72 0)
 		(unit 1)
@@ -16830,6 +16937,73 @@
 			(project ""
 				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 363.22 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1341d96f-c678-45ba-b6e2-6d5cd22f0798")
+		(property "Reference" "JP5"
+			(at 362.966 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WE_J"
+			(at 363.474 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 363.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 363.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2bfeea4-b799-4257-90c7-c3ba1974fc5e")
+		)
+		(pin "1"
+			(uuid "8016d20f-28fd-458b-b7f7-d3b587183056")
+		)
+		(instances
+			(project "EMUZ80_Pico2"
+				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -17745,6 +17919,73 @@
 			(project ""
 				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 353.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4528751b-2b40-4f26-a460-30028eecae50")
+		(property "Reference" "JP4"
+			(at 353.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OE_J"
+			(at 353.06 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 353.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 353.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37e2660d-98a1-4baa-b79d-40308b2afa3c")
+		)
+		(pin "1"
+			(uuid "3617dce5-5432-409b-aea5-99c644682208")
+		)
+		(instances
+			(project "EMUZ80_Pico2"
+				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -19230,6 +19471,73 @@
 			(project "EMUZ80_Pico2"
 				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 363.22 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d7e99f1-3ff2-4b02-8ba5-d5c14d7e9fd3")
+		(property "Reference" "JP3"
+			(at 363.22 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CS2_J"
+			(at 363.22 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 363.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 363.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45dce5e1-1ed2-4d71-b048-f345a3487cb9")
+		)
+		(pin "1"
+			(uuid "f703341e-0d5d-45a2-874f-96bb35a2f2ad")
+		)
+		(instances
+			(project "EMUZ80_Pico2"
+				(path "/98d00e53-0dab-4ce8-bed6-56c0d77dcb8b"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
